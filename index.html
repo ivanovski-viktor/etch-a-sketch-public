@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <center>
+      <div class="sketch-container"></div>
+      <div class="button-layout">
+        <span id="red-btn" class="colorBtn"><i class="bi bi-brush"></i></span>
+        <span id="green-btn" class="colorBtn"><i class="bi bi-brush"></i></span>
+        <span id="blue-btn" class="colorBtn"><i class="bi bi-brush"></i></span>
+        <span id="rand-btn" class="colorBtn"
+          ><i class="bi bi-palette-fill"></i>
+        </span>
+        <span id="clear-btn" class="colorBtn"
+          ><i class="bi bi-eraser-fill"></i
+        ></span>
+        <div class="select-container">
+          <select id="resolution" name="resolution">
+            <option class="option" value="">Resolution</option>
+            <option class="option" value="2">4px</option>
+            <option class="option" value="4">16px</option>
+            <option class="option" value="8">64px</option>
+            <option class="option" value="16">256px</option>
+            <option class="option" value="32">1024px</option>
+            <option class="option" value="64">4096px</option>
+          </select>
+          <div class="icon-container">
+            <i class="bi bi-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </center>
+  </body>
+  <script src="./script.js"></script>
+</html>
